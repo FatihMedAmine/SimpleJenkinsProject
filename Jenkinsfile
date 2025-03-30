@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo "📂 Clonage du dépôt GitHub..."
-                    git url: 'https://github.com/AnasIchmawin/Mini_projet_Docker.git1', branch: 'main'
+                    git url: 'https://github.com/AnasIchmawin/Mini_projet_Docker.git', branch: 'main'
                 }
             }
         }
